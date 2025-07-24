@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html >
+<head>
+ 
+  <title>BLOOM'S CAFE</title>
+  <link rel="stylesheet" href="result.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+   
+   
+ 
+  
+</head>
+<body>
+    
+<!----------------Menu---------------->
+    
+  <!-- Hidden checkbox controls menu visibility -->
+  <input type="checkbox" id="check-box" hidden>
+
+  <!-- Hamburger icon -->
+  <label for="check-box" class="label" aria-label="Open menu">
+    <i class="fa-solid fa-bars"></i>
+  </label>
+  
+
+  <nav class="menu">
+    <div class="head">
+      <h3>BLOOM'S CAFE</h3>
+      <br>
+      <div class="border"></div>
+    </div>
+
+    <ul><br>
+    <br>
+    <br>
+    <br>
+      <li><a class="menu-links" href="#home">Menu</a></li>
+      <li><a class="menu-links" href="#features">Features</a></li>
+      <li><a class="menu-links" href="#about">About</a></li>
+      <li><a class="menu-links" href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Close icon -->
+    <label class="wrong-btn" for="check-box" aria-label="Close menu">
+      <i class="fa-solid fa-xmark"></i>
+    </label>
+  </nav>
+
+<!---------------features-------------->
+   <div class="head-cake">
+      <h3>BLOOM'S CAFE</h3>
+      <br>
+     
+      </div>
+          <div class="bottom-border"> 
+          </div>
+          
+          <div class="next-page">
+    <label class="cake">
+       <i class="fa-solid fa-cake-candles fa-fade" style="color: #292929;"></i>
+    </label>
+        <h2 class="cake-heading">Variety of Cakes</h2>
+        <p class="cake-para">Birthday, Wedding, Anniversary, Custom-themed cakes
+Flavors like Black Forest, Red Velvet, Chocolate Truffle, Butterscotch, Fruit Cake, etc.</p></div>
+
+<div class="next-page">
+ <label class="cake">
+       <i class="fa-solid fa-face-smile fa-spin" style="color: #3d3d3d;"></i>
+    </label>
+        <h2 class="cake-heading">Combo Offer</h2><br>
+        <p class="cake-para">Cake + Flower, Cake + Gift options.
+Discounts for bulk and repeat orders</p></div>
+
+<div class="next-page">
+ <label class="cake">
+      <i class="fa-regular fa-star fa-flip" style="color: #000000;"></i>
+    </label>
+        <h2 class="cake-heading">Quality Cakes</h2><br>
+        <p class="cake-para">Baked daily using high-quality, fresh ingredients.Eggless and vegan options available</p></div>
+        
+<div class="next-page">
+ <label class="cake">
+    <i class="fa-duotone fa-solid fa-truck fa-bounce" style="--fa-primary-color: #454545; --fa-secondary-color: #000000;"></i>
+    </label>
+        <h2 class="cake-heading">online Order</h2><br>
+        <p class="cake-para">Easy-to-use interface with images and prices.Payment options: UPI, Cards, COD
+</p>
+        
+      </div>
+<!----------------about---------------->      
+      <div class="about">
+          <img src="background.jpg" alt="cake">
+ <div class="about-text">
+  <h2>𝔸𝕓𝕠𝕦𝕥 𝕦𝕤...!</h2><br>
+  <p>Welcome to Bloom's Cafe! Where every cake is crafted with love and flavor!</p><br>
+  
+<button onclick="toggleLearn()">𝑳𝒆𝒂𝒓𝒏 𝒎𝒐𝒓𝒆</button>
+</div>
+</div>
+<div class="learn" id="learn-content">
+  Welcome to Bloom’s Cake Atelier — where sophistication meets sweetness.
+      At Bloom’s, we redefine the art of cake-making with elegance and precision. Each of our creations is a masterpiece, handcrafted using premium ingredients sourced from around the world — velvety Belgian chocolate, pure Madagascar vanilla, handpicked seasonal fruits, and gold-dusted finishes.
+      Our patisserie is a haven for connoisseurs who seek more than just dessert — they desire an experience. From intricately designed wedding cakes to luxurious high tea pastries, every item is curated to reflect refinement, taste, and timeless beauty.
+      Step into our boutique-style space, where modern luxury blends with classic charm. Whether you’re celebrating a milestone or indulging in life’s finer pleasures, Bloom’s is here to make your moments unforgettable.
+      <strong>Indulge in elegance. Taste the extraordinary.</strong>
+</div>
+<script>
+  function toggleLearn() {
+    var content = document.getElementById("learn-content");
+    content.classList.toggle("show");
+  }
+</script>
+<!--------------contact-------------->
+
+<div class="blooms">
+    ⒷⓁⓄⓄⓂ'Ⓢ
+    ⒸⒶⒻⒺ
+</div> 
+<br>
+<div class="contact">
+
+   <div class="phone"> <i class="fa-sharp-duotone fa-solid fa-phone fa-shake" style="--fa-primary-color: #424242; --fa-primary-opacity: 2; --fa-secondary-color: #000000; --fa-secondary-opacity: 0.5;"></i>
+Telephone</div>
+<div class="content">   
+    Contact : 1234567890<br>
+    Futher details just contact us..
+</div>
+<br>
+<div class="insta"><i class="fa-brands fa-instagram" style="color: #c486b7;"></i>Instagram 
+</div>
+<div class="content">
+    Follow us: blooms_cafe_35
+</div>
+<br>
+<div class="comment">
+    <i class="fa-solid fa-face-smile fa-fade" style="color: #424242;"></i></i>Comment
+</div>
+<div class="content">
+    Comment us with your experience <br>
+    And support us
+</div>
+</div>   
+<br>
+<!------------form page---------------->
+
+
+
+<div class="contact-form">
+  <h3>Contact Us</h3>
+
+  <form action=".html">
+    <div class="form-group">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" required></textarea>
+    </div>
+
+    <button type="submit" class="btn submit-btn">Send Message</button>
+  </form>
+</div>
+
+
+ 
+
+
+
+
+
+
+
+
+</body>
+</html>
